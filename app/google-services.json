@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "538405839869",
+    "firebase_url": "https://fcis-izi-task.firebaseio.com",
+    "project_id": "fcis-izi-task",
+    "storage_bucket": "fcis-izi-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538405839869:android:262929e07fe65909",
+        "android_client_info": {
+          "package_name": "com.elzobaba.fcisizitask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538405839869-gc4gcu3k8c5n5tljo8khevp1nk69abqi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.elzobaba.fcisizitask",
+            "certificate_hash": "c21528451c20d2af2d2f8a4a28926f3941226a82"
+          }
+        },
+        {
+          "client_id": "538405839869-u373absvapobkicpiliuck7727829a3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARmXQ2r2TJytFgSpJ7qJVPeKbGGZZWp8A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538405839869-u373absvapobkicpiliuck7727829a3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
