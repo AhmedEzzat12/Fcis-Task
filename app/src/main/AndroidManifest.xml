@@ -2,13 +2,45 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.elzobaba.fcisizitask">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName=".MainStart">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.elzobaba.fcisizitask.MainStart" />
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Register"
+            android:parentActivityName=".MainStart">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.elzobaba.fcisizitask.MainStart" />
+        </activity>
+        <activity
+            android:name=".ForgotPassword"
+            android:parentActivityName=".LoginActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.elzobaba.fcisizitask.LoginActivity" />
+        </activity>
+        <activity android:name=".MainStart">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
